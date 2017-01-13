@@ -6,6 +6,14 @@
 	}
 }
 
+.topbar-list .topbar-link {
+	color: rgba(255,255,255, .4);
+}
+
+.topbar-list .topbar-link:hover {
+	color: rgba(255,255,255, 6);
+}
+
 .topbar-logo-link {
 	.icon {
 		color: $accent;

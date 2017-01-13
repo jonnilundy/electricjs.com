@@ -428,18 +428,6 @@
 		}
 	}
 
-	.topbar-link {
-		white-space: nowrap;
-
-		font-family: $font-family-secondary-bold;
-		font-size: 15px;
-		color: rgba($primary, 0.6);
-
-		&.topbar-link-selected {
-			color: $accent;
-		}
-	}
-
 	.get-started {
 		@media	(max-width: 720px) {
 			display: none;

@@ -1,5 +1,7 @@
 .features {
 	padding: 90px 0 90px;
+	position: relative;
+	overflow: hidden;
 }
 
 .feature {
@@ -28,15 +30,22 @@
 .feature-title {
 	font-family: $font-family-secondary-bold;
 	font-size: 32px;
+	line-height: 33px;
 	margin: 20px 0;
 }
 
 .feature-description {
-	font-family: $font-family-sans-serif;
-	font-size: 16px;
+	font-family: $font-family-secondary;
+	color: rgba($primary, .6);
+	font-size: 18px;
 	line-height: 26px;
 	margin: 0;
 }
+	@media (min-width: $screen-md-min) {
+		.feature-description {
+			font-size: 15px;
+		}
+	}
 
 .feature-graphic [class^="icon-16-"], 
 .feature-graphic [class*="icon-16-"] {
@@ -49,3 +58,124 @@
 	display: block;
 	margin: auto;
 }
+
+.giant {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  z-index: -1;
+  text-align: center;
+  }
+  @media (min-width: 320px) {
+    .giant {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (min-width: 480px) {
+    .giant {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (min-width: 600px) {
+    .giant {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (min-width: 720px) {
+    .giant {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (min-width: 840px) {
+    .giant {
+      -webkit-transform: translateX(-49%);
+      transform: translateX(-49%); } }
+  @media (min-width: 960px) {
+    .giant {
+      -webkit-transform: translateX(-42.5%);
+      transform: translateX(-42.5%); } }
+  @media (min-width: 1024px) {
+    .giant {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (min-width: 1280px) {
+    .giant {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (min-width: 1440px) {
+    .giant {
+      -webkit-transform: translateX(-52%);
+      transform: translateX(-52%);
+      } }
+  @media (min-width: 1600px) {
+    .giant {
+      -webkit-transform: translateX(-52%);
+      transform: translateX(-52%); } }
+  @media (min-width: 1920px) {
+    .giant {
+      -webkit-transform: translateX(-55%);
+      transform: translateX(-55%); } }
+
+.giant span {
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.02), 0px 40px 40px rgba(0, 0, 0, 0.04);
+  color: #fff;
+  position: relative;
+  left: 0;
+  width: 100%;
+  display: block; }
+  @media (min-width: 320px) {
+    .giant span {
+      font-size: 426px;
+      line-height: 186px;
+      top: -11px;
+      text-align: center; } }
+  @media (min-width: 480px) {
+    .giant span {
+      font-size: 469px;
+      line-height: 279px;
+      top: -41px; } }
+  @media (min-width: 600px) {
+    .giant span {
+      font-size: 485px;
+      line-height: 345px;
+      top: -45px; } }
+  @media (min-width: 720px) {
+    .giant span {
+      font-size: 448px;
+      line-height: 258px;
+      top: -36px;
+      text-align: left; } }
+  @media (min-width: 840px) {
+    .giant span {
+      font-size: 469px;
+      line-height: 309px;
+      top: -43px; } }
+  @media (min-width: 960px) {
+    .giant span {
+      font-size: 390px;
+      line-height: 360px;
+      top: -47px; } }
+  @media (min-width: 1024px) {
+    .giant span {
+      font-size: 406px;
+      line-height: 386px;
+      top: -60px; } }
+  @media (min-width: 1280px) {
+    .giant span {
+      font-size: 404px;
+      line-height: 404px;
+      top: -68px; } }
+  @media (min-width: 1440px) {
+    .giant span {
+      font-size: 517px;
+      line-height: 517px;
+      left: 20px;
+      top: -112px; } }
+  @media (min-width: 1600px) {
+    .giant span {
+      font-size: 577px;
+      line-height: 577px;
+      top: -163px; } }
+  @media (min-width: 1920px) {
+    .giant span {
+      font-size: 648px;
+      line-height: 648px;
+      top: -214px; } }

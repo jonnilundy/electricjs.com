@@ -1,6 +1,11 @@
 .highlight {
-	margin: 150px 0;
+	margin: 100px 0;
 }
+	@media (min-width: $screen-md-min) {
+		.highlight.row {
+			margin: 150px 0;
+		}
+	}
 
 .highlight-title {
 	font-family: $font-family-secondary-bold;
@@ -9,7 +14,8 @@
 }
 
 .highlight-description {
-	font-family: $font-family-sans-serif;
+	font-family: $font-family-secondary;
+	color: rgba($primary, .6);
 	font-size: 18px;
 	line-height: 28px;
 	margin: 0 0 20px;
